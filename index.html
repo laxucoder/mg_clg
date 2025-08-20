@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Mahatma Gandhi Jr and Science College</title> 
+  <style>
+    /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background: black;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(45deg, #ff6f61, #ffb74d, #9c27b0, #ba68c8);
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.2);
+    color: #fcd34d;
+}
+
+/* College Name Section */
+.college-name {
+    text-align: center;
+    background: linear-gradient(90deg, #f44336, #e91e63, #9c27b0, #673ab7);
+    background-size: 400% 400%;
+    color: white;
+    padding: 20px;
+    animation: gradientMove 10s infinite;
+    word-wrap: break-word; /* Ensures long text breaks into the next line */
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.college-name h1 {
+    font-size: 2.5rem; /* Adjusted for longer text */
+    margin-bottom: 10px;
+}
+
+.college-name p {
+    font-size: 1.2rem;
+}
+
+/* Dynamic Section */
+.dynamic-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(90deg, #ff5722, #ff9800, #f44336);
+    background-size: 300% 300%;
+    animation: gradientCycle 8s infinite;
+    color: white;
+}
+
+.dynamic-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.dynamic-section p {
+    font-size: 1.2rem;
+}
+
+@keyframes gradientCycle {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* About and Contact Section */
+.content-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(45deg, #e91e63, #ba68c8, #673ab7, #ff4081);
+    background-size: 300% 300%;
+    animation: gradientCycle 8s infinite;
+    color: white;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.2rem;
+}
+
+.content-section ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.content-section ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #ff6f61, #ff4081, #ba68c8);
+    color: white;
+    font-size: 1rem;
+}
+  </style>
+ </head> 
+ <body> <!-- Navigation Bar --> 
+  <nav> 
+   <ul> 
+    <li><a href="#home">🏠 Home</a></li> 
+    <li><a href="#about">📖 About</a></li> 
+    <li><a href="#courses">📚 Courses</a></li> 
+    <li><a href="#contact">📞 Contact</a></li> 
+   </ul> 
+  </nav> <!-- College Name Section --> 
+  <div class="college-name"> 
+   <h1>🌟. Mahatma Gandhi College </h1> 
+   <p>🔰 Wadsa,Gadchiroli,441207🔰</p> 
+  </div> <!-- Dynamic Content Section --> 
+  <section id="home" class="dynamic-section"> 
+   <h2>🎓 Welcome to the World of Knowledge 🎓</h2> 
+   <p> At Mahatma Gandhi Jr and Science College, we provide a nurturing environment where students 🌟 grow, explore, and achieve excellence. Let's light up your future! ✨ </p> 
+  </section> <!-- About Section --> 
+  <section id="about" class="content-section"> 
+   <h2>About Us</h2> 
+   <p> We are committed to delivering high-quality education with state-of-the-art facilities and experienced faculty. Our college is your gateway to success! 🌠 </p> 
+  </section> <!-- Courses Section --> 
+  <section id="courses" class="content-section"> 
+   <h2>Our Courses</h2> 
+   <ul> 
+    <li>📡Physics, Chemistry, Biology🛰️</li> 
+    <li>📏Mathematics📐</li> 
+    <li>🧑‍💻 IT 🧑‍💻</li> 
+   </ul> 
+  </section> <!-- Contact Section --> 
+  <section id="contact" class="content-section"> 
+   <h2>Contact Us</h2> 
+   <p>📍 Tahsil Wadsa, District Gadchiroli , 441207</p> 
+   <p>📧 Email: laxucoder@gmail.com</p> 
+   <p>📞 Phone: +91-7972057366</p> 
+  </section> <!-- Footer --> 
+  <footer> 
+   <p>🌟 by Laxman Panigrahi 🌟</p> 
+   <p>©️ 2025 Mahatma Gandhi Jr and Science College. All Rights Reserved.</p> 
+  </footer> 
+ </body>
+</html>
